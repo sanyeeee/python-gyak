@@ -19,10 +19,11 @@ class FirstRepeatingCharacter:
                 next_item = characters[idx + 1]
                 if next_item == char:
                     repeating_char = char
+                    break
 
         return repeating_char
 
-text = "Hello, world"
+text = "Hello, worldd"
 first_repeating_character = FirstRepeatingCharacter()
 result = first_repeating_character.findFirstRepeatingCharacter(text)
 
